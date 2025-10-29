@@ -10,16 +10,16 @@ const App = () => {
 
   useEffect(() => {
     if (window.innerWidth < 700) {
-        setImage('/images/illustration-sign-up-mobile.svg');
+        setImage('./images/illustration-sign-up-mobile.svg');
       } else {
-        setImage('/images/illustration-sign-up-desktop.svg');
+        setImage('./images/illustration-sign-up-desktop.svg');
       }
 
     window.addEventListener('resize', () => {
       if (window.innerWidth < 700) {
-        setImage('/images/illustration-sign-up-mobile.svg');
+        setImage('./images/illustration-sign-up-mobile.svg');
       } else {
-        setImage('/images/illustration-sign-up-desktop.svg');
+        setImage('./images/illustration-sign-up-desktop.svg');
       }
     })
   }, [])
@@ -41,7 +41,7 @@ const App = () => {
       {!sent ? <Card
         title="Stay updated!"
         text="Join 60,000+ product managers receiving monthly updates on:"
-        listIcon="/images/icon-list.svg"
+        listIcon="./images/icon-list.svg"
         listText1="Product discovery and building what matters"
         listText2="Measuring to ensure updates are a success"
         listText3="And much more!"

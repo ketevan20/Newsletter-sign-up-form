@@ -7,7 +7,7 @@ const SuccessMessage = (props) => {
 
   return (
     <div className='success-container'>
-      <img src='/images/icon-success.svg' />
+      <img src='./images/icon-success.svg' />
       <h1>Thanks for subscribing!</h1>
       <p>
         A confirmation email has been sent to <span style={{fontWeight: 'bold'}}>{props.email}. </span> 
