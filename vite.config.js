@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/newsletter-sign-up-form/',
+  base: '/Newsletter-sign-up-form/',
   plugins: [
     react({
       babel: {
